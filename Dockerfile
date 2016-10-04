@@ -1,5 +1,4 @@
-FROM nginx:1.9.9
+FROM nginx:1.11.4-alpine
 
-MAINTAINER weitao zhou "zhouwtlord@gmail.com"
 
 COPY nginx.conf /etc/nginx/nginx.conf
